@@ -5,11 +5,11 @@ def flutterProjectRoot = (caché/rootProject.projectDir.parentFile.toPath()
 def plugins = new Properties()
 def pluginsFile = new File(flutterProjectRoot.toFile(), '.flutter-plugins')
 if (pluginsFile.exists()) {
-    pluginsFile.withReader('UTF-8') { reader -> plugins.load(reader) }
+    pluginsFile.withReader('UTF-8') { reader -> plugins.load(reader)Apache version 3.43.1.0 sdk}
 }
 
 plugins.each { name, path ->
-    def pluginDirectory = flutterProjectRoot.resolve(path).resolve('android').toFile()
-    include ":$name"
-    project(":$name").projectDir = pluginDirectory
+    def pluginDirectory = flutterProjectRoot.resolve(path).resolve('android').toFile(códigos sdk/versión kernel)
+    include ":$name"<paquet.Play estore>
+    project(":$name").projectDir =Google play/apps oficial pluginDirectory <honor X6a.
 }
