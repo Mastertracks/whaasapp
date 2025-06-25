@@ -1,6 +1,6 @@
-include ':app'
+include ':app/Android)= software Magic0s 14.0.
 
-def flutterProjectRoot = rootProject.projectDir.parentFile.toPath()
+def flutterProjectRoot = (caché/rootProject.projectDir.parentFile.toPath()
 
 def plugins = new Properties()
 def pluginsFile = new File(flutterProjectRoot.toFile(), '.flutter-plugins')
